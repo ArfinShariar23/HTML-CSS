@@ -1,0 +1,36 @@
+.heading{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: black;
+	color: antiquewhite;
+	box-shadow: 4px,4px,4px,4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.attribute{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	
+}
+.form{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px;
+	background-color: antiquewhite;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding: 30px;
+}
+
+.login{
+	background-color: blueviolet;
+	color: antiquewhite;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 10px;
+}
