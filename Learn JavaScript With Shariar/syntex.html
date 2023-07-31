@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn JavaScript with Shariar</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			background: purple;
+		}
+		h1{
+			text-align: center;
+			font-weight: bold;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			background: orange;
+			color: black;
+			font-size: 40px;
+		}
+
+		p{
+			text-align: center;
+			font-weight: bold;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			background: pink;
+			color: black;
+			font-size: 20px;
+			margin: 20px;
+			padding: 20px;
+			border: 2px solid black;
+			border-radius: 15px;
+		}
+
+		#submit{
+			margin: 0;
+			padding: 0;
+			border: 2px solid black;
+			color: white;
+			text-align: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<br>
+	<h1>Learn JavaScript With Shariar</h1>
+	<br>
+	<p>My Name is Arfin Shariar<br>I am From Dhaka Bangladesh<br>I am currently pursing My Bachelor Degree on Computer Science & Engineering from Daffodil International University</p>
+
+	<p id="age_number"> </p>
+
+	<p id = "Sum"></p>
+
+	<p id="string"></p>
+
+	<p id="artihmetic_operation"></p>
+
+	
+
+	<script>
+		var age = 23
+		document.getElementById("age_number").innerHTML = "My Age = "+age+"<br>";
+
+		var num1 = 10;
+		var num2 = 5;
+		var total = num1+num2;
+
+		document.getElementById("Sum").innerHTML = "Sum of Two number is = "+total+"<br>";
+
+
+		var fname = "Shariar";
+		var lname = "Arfin";
+
+		document.getElementById("string").innerHTML = "My name is "+lname+" "+fname+"<br>";
+		
+	</script>
+</body>
+</html>

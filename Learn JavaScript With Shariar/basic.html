@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn JavaScript With Shariar</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			background: pink;
+		}
+		h1{
+			background: black;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			margin: 20px;
+			padding: 20px;
+			border: 2px solid yellow;
+			font-weight: bold;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			border-radius: 15px;
+		}
+
+		#control{
+			margin:20px;
+			padding: 20px;
+			border: 2px solid black;
+			background: ghostwhite;
+			text-align: center;
+			border-radius: 15px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		#control_2{
+			margin:20px;
+			padding: 20px;
+			border: 2px solid black;
+			background: ghostwhite;
+			text-align: center;
+			border-radius: 15px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		#control_3{
+			margin:20px;
+			padding: 20px;
+			border: 2px solid black;
+			background: ghostwhite;
+			text-align: center;
+			border-radius: 15px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		#bmi{
+			margin:20px;
+			padding: 20px;
+			border: 2px solid black;
+			background: ghostwhite;
+			text-align: center;
+			border-radius: 15px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1> Learn JavaScript with Shariar Day 2</h1>
+	<p id="control">Are Allowed for License</p>
+
+	<p id="control_2"></p>
+
+	<p id="control_3"></p>
+
+	<P id="bmi"></P>
+
+	<script>
+		const UserAge = prompt("Please Enter Your Age: ");
+
+		if(UserAge<18){
+			document.getElementById("control").innerHTML = "Sorry under 18 people are not allowed in this site";
+		}
+		else{
+			document.getElementById("control").innerHTML = "Welcome to Shariar Learning Site!!!"
+
+		}
+	</script>
+	<script src="control.js">
+
+	</script>
+</body>
+</html>
